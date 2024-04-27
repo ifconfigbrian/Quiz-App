@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 body{
-    background: #001e4d;
+    background: #394450;
 }
 .app{
-    background: #fff;
+    background: #d2cae9;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -44,7 +44,7 @@ body{
     transition: all 0.3s;
 }
 .btn:hover:not([disabled]){
-    background: #222;
+    background: #453861;
     color: #fff;
 }
 .btn:disabled{
