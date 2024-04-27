@@ -82,7 +82,8 @@ function showQuestion() {
         const selectedBtn = e.target;
         const isCorrect = selectedBtn.dataset.correct === "true";
         if (isCorrect) {
-            selectedBtn.classList.add("correct");    
+            selectedBtn.classList.add("correct");
+            score++;    
         }else{
             selectedBtn.classList.add("incorrect");
         }
