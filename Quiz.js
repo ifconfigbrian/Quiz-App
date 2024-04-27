@@ -61,6 +61,6 @@ function showQuestion() {
         button.classList.add("btn");
         answerButton.appendChild(button);
     });
-    startQuiz();
     
-}
+    }
+    startQuiz();
